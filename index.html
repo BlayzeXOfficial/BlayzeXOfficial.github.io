@@ -1,125 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlayzeX</title>
 
-<title>BlayzeX</title>
-
-<style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
-}
-
-body{
-background:#0d1117;
-color:white;
-}
-
-nav{
-position:fixed;
-top:0;
-left:0;
-width:100%;
-padding:20px 40px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-background:#111827;
-box-shadow:0 0 20px #00e5ff33;
-}
-
-nav h2{
-color:#00e5ff;
-}
-
-nav ul{
-display:flex;
-list-style:none;
-gap:20px;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-transition:0.3s;
-}
-
-nav a:hover{
-color:#00e5ff;
-}
-
-.hero{
-height:100vh;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-text-align:center;
-padding:20px;
-}
-
-.hero h1{
-font-size:60px;
-color:#00e5ff;
-text-shadow:0 0 20px #00e5ff;
-}
-
-.hero p{
-margin-top:20px;
-font-size:22px;
-color:#cfcfcf;
-}
-
-button{
-margin-top:30px;
-padding:15px 40px;
-font-size:20px;
-border:none;
-border-radius:50px;
-background:#00e5ff;
-cursor:pointer;
-transition:.3s;
-}
-
-button:hover{
-transform:scale(1.1);
-box-shadow:0 0 20px #00e5ff;
-}
-
-</style>
-
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<nav>
+<nav class="navbar">
+  <h2 class="logo">🚀 BlayzeX</h2>
 
-<h2>🚀 BlayzeX</h2>
-
-<ul>
-<li><a href="#">Home</a></li>
-<li><a href="#">About</a></li>
-<li><a href="#">Skills</a></li>
-<li><a href="#">Projects</a></li>
-<li><a href="#">Contact</a></li>
-</ul>
-
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
 </nav>
 
-<section class="hero">
+<section id="home" class="hero">
 
-<h1>BlayzeX</h1>
+  <h1>BlayzeX</h1>
 
-<p>Welcome To My Official Website 🚀</p>
+  <h3><span id="typing"></span></h3>
 
-<button>Explore</button>
+  <p>
+    Welcome to my official portfolio website.
+  </p>
+
+  <a href="#about">
+    <button>Explore</button>
+  </a>
 
 </section>
+
+<section id="about" class="about">
+
+<h2>About Me</h2>
+
+<p>
+Hi! I'm <b>Pavan</b>, creator of <b>BlayzeX</b>.
+I enjoy Coding, Linux, Python, Web Development and creating Tech Edits.
+My dream is to become a professional developer and build awesome projects.
+</p>
+
+</section>
+
+<section id="skills" class="skills">
+
+<h2>My Skills</h2>
+
+<div class="cards">
+
+<div class="card">🐍 Python</div>
+
+<div class="card">🐧 Linux</div>
+
+<div class="card">🌐 HTML</div>
+
+<div class="card">🎨 CSS</div>
+
+<div class="card">⚡ JavaScript</div>
+
+<div class="card">💻 GitHub</div>
+
+</div>
+
+</section>
+
+<section id="projects" class="projects">
+
+<h2>Projects</h2>
+
+<div class="project-box">
+
+<h3>🚀 BlayzeX Portfolio</h3>
+
+<p>
+My personal portfolio website hosted on GitHub Pages.
+</p>
+
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+
+<h2>Contact Me</h2>
+
+<p>Email: your@email.com</p>
+
+<p>Instagram: @your_username</p>
+
+<p>GitHub: github.com/yourusername</p>
+
+</section>
+
+<footer>
+
+© 2026 BlayzeX | Made with ❤️ by Pavan
+
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
