@@ -62,21 +62,11 @@ a {
 }
 
 .footer{
+    width:100%;
     background:#0d0d0d;
     color:white;
     text-align:center;
-    padding:25px;
+    padding:20px;
     border-top:2px solid #ff007f;
-    margin-top:20px;
-}
-
-.footer p{
-    margin:8px 0;
-    color:#ddd;
-}
-
-.footer p:first-child{
-    font-size:22px;
-    color:#ff4081;
-    font-weight:bold;
+    box-sizing:border-box;
 }
