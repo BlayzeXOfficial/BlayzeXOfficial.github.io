@@ -10,6 +10,44 @@ header {
   padding: 30px;
   background: linear-gradient(90deg, #ff0000, #6600ff);
 }
+.contact{
+    background:#111;
+    padding:40px 20px;
+    text-align:center;
+    margin-top:40px;
+    border-top:2px solid #ff007f;
+}
+
+.contact h2{
+    color:#ff4081;
+    margin-bottom:25px;
+    font-size:28px;
+}
+
+.contact-box{
+    background:#1b1b1b;
+    margin:15px auto;
+    padding:15px;
+    border-radius:12px;
+    max-width:320px;
+    box-shadow:0 0 10px rgba(255,0,127,.4);
+}
+
+.contact-box p{
+    color:white;
+    margin-bottom:8px;
+    font-weight:bold;
+}
+
+.contact-box a{
+    color:#00e5ff;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.contact-box a:hover{
+    color:#ff4081;
+}
 
 .games {
   display: flex;
