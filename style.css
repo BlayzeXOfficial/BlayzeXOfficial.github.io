@@ -42,35 +42,22 @@ a {
   border-radius: 8px;
 }
 
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #111;
-  margin-top: 30px;
-}
-.contact{
-    text-align:center;
-    padding:40px 20px;
-    background:#111;
+.footer{
+    background:#0d0d0d;
     color:white;
+    text-align:center;
+    padding:25px;
+    border-top:2px solid #ff007f;
+    margin-top:20px;
 }
 
-.contact h2{
-    margin-bottom:20px;
+.footer p{
+    margin:8px 0;
+    color:#ddd;
+}
+
+.footer p:first-child{
+    font-size:22px;
     color:#ff4081;
-}
-
-.contact p{
-    margin:12px 0;
-    font-size:18px;
-}
-
-.contact a{
-    color:#00e5ff;
-    text-decoration:none;
     font-weight:bold;
 }
-
-.contact a:hover{
-    color:#ff4081;
-    }
