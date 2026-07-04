@@ -37,7 +37,7 @@
     <div class="card">
       <h2>GTA V</h2>
       <p>Open world action adventure game.</p>
-      <a href="GTA-5.exe" download>
+      <a href="GTA-5.exe" download onclick="showMessage()">
     <button>Download</button>
 </a>
     </div>
@@ -51,7 +51,7 @@
     <div class="card">
       <h2>Minecraft</h2>
       <p>Build, survive and explore blocks world.</p>
-      <a href="Minecraft.exe" download>
+      <a href="Minecraft.exe" download onclick="showMessage()">
     <button>Download</button>
 </a>
     </div>
@@ -61,6 +61,10 @@
   <footer>
     <p>© 2026 BlayzeX Gaming Hub</p>
   </footer>
-
+<script>
+function showMessage() {
+    alert("🎉 Thanks for downloading from BlayzeGameHub!\nEnjoy your game 😎");
+}
+</script>
 </body>
 </html>
