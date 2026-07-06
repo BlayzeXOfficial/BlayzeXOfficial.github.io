@@ -235,3 +235,10 @@ font-size:20px;
     appearance: none;
     -webkit-appearance: none;
     }
+.game-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    }
