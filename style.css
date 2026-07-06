@@ -188,5 +188,13 @@ font-size:20px;
     border-color: transparent;
     transform: translateY(-3px);
     box-shadow: 0 0 15px rgba(255,0,85,.4);
+}
+    button{
+    background:#ff0055;
+    color:white;
+    border:none;
+    outline:none;
+    padding:12px 25px;
+    border-radius:10px;
+    cursor:pointer;
     }
-    
