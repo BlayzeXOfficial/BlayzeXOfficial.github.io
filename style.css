@@ -89,10 +89,9 @@ a {
     box-sizing:border-box;
 }
 #loginBtn{
-#loginBtn{
 position:fixed;
-top:20px;
-left:20px;
+bottom:20px;
+right:20px;
 padding:12px 20px;
 background:#00bfff;
 color:white;
@@ -100,7 +99,7 @@ border:none;
 border-radius:30px;
 cursor:pointer;
 font-size:16px;
-z-index:9999;
+z-index:999;
 }
 
 .login-box{
