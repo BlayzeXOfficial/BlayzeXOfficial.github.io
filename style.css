@@ -112,15 +112,16 @@ cursor:pointer;
 }
 
 #closeBtn{
-float:right;
-color:white;
-cursor:pointer;
-font-size:20px;
-.categories{
+    float:right;
+    color:white;
+    cursor:pointer;
+    font-size:20px;
+}
+
 .categories{
     text-align:center;
     padding:40px 20px;
-}
+    }
 
 .category-grid{
     display:flex;
